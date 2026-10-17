@@ -17,6 +17,17 @@ For each chapter, there is a Jupyter notebook, below, where you can read the tex
 
 You can read the free version of the book by following the links on the left.
 
+## Export an EPUB
+
+Install the `Markdown` Python package, then run `python scripts/export_epub.py`.
+The script reads the preface and chapter notebooks and writes `ThinkBayes2.epub`.
+Pass `--output PATH` to choose a different output file.
+
+## Convert chapter notebooks to marimo
+
+Run `python scripts/convert_chapters_to_marimo.py`. It uses `uvx` to convert
+each `notebooks/chap*.ipynb` to a marimo `.py` file beside the source notebook.
+
 If you are looking for **solutions to the exercises**, follow the links on the left.
 
 *Think Bayes* is a Free Book. It is available under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/), which means that you are free to copy and modify it, as long as you attribute the work and don’t use it for commercial purposes.
