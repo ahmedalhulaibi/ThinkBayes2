@@ -19,8 +19,9 @@ You can read the free version of the book by following the links on the left.
 
 ## Export an EPUB
 
-Install the `Markdown` Python package, then run `python scripts/export_epub.py`.
-The script reads the preface and chapter notebooks and writes `ThinkBayes2.epub`.
+Install the `Markdown` and `Matplotlib` Python packages, then run
+`python scripts/export_epub.py`. The script reads the preface and chapter
+notebooks and writes `ThinkBayes2.epub`; math expressions are embedded as PNGs.
 Pass `--output PATH` to choose a different output file.
 
 ## Convert chapter notebooks to marimo
